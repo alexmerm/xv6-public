@@ -1,0 +1,3 @@
+FROM ubuntu:latest
+WORKDIR /workdir 
+RUN apt-get update && apt-get install gcc-10-multilib-i686-linux-gnu gcc make -y
